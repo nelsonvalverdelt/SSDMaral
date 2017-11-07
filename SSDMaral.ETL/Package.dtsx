@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="66"
-  DTS:VersionGUID="{733230C2-CD85-445E-8656-5D7DBE4E3A84}">
+  DTS:VersionBuild="67"
+  DTS:VersionGUID="{479FE326-8C5F-4B46-9080-4C0C790245AA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNO7ZTYh2QBhdsTyMBLUxzyhGuKV7AroZL6uuDQODOVQAAAAAOgAAAAAIAACAAAAD4SnjNdxElYkqipyzMPdQ037zoe2l1vxzefo+6GGsHPiAAAAC3iltR5iv1/TAdyeU7OPGJ3cS4YEzMHyq+fSHUvZtDOUAAAADc8sotk0kWG2MIuA15OCOdpotqIrP8UgGWer5YPYZXYCwbmZ3VXHckC0rLWiwWp449OE56MPkuAMDH/BTV5RPT</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABlRWuwVknmkJ7NVLxpC7Srdg5tUmred60GAi9hdUuPDgAAAAAOgAAAAAIAACAAAADRTbD99NTW1whG/bxoOf0AgEvJ6nboyf87MAW8rgSX6yAAAABZjbxopoQ7GU+BqnRD2nrhxdtbhsT0UzHnxbs1GaKetEAAAAAbRL4RPP2G9MGpoeauzlxC9a8vz6fvm5liXShk48/nnnawCET23UgGQc2CZ/h7Q7sxxTz8PDjswU3T9DNftokw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+2ZgXCKoC20h9Fq36Y2HrHfuR/abVvy+oVdKr+9a3aAAAAAAOgAAAAAIAACAAAACNARPAnJ1mawEFZYz8WvgkOAhySWaR49+UPVQDU9iF/SAAAACwUnCds5eoDrEXMpDxcHe6KRuhp7wjLhfWqv7Dg9LtAUAAAACsKZbffdsPhAmBQHcnCpUcghpS27JX0BwxSfmLGmtlrZMxZVkUQ8i+HtmjlgJjS0JAkLXf4G8jNV91+hsDQ2mr</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACYDAW6QXog+O0eOFfLILEcWg1IXk1xOlEghvXinCxJmQAAAAAOgAAAAAIAACAAAADh1glYbqC4RdjiMX6kbGGMoS9AFpHXzO9GFtkx/I/FqSAAAADzzxMtTEhc31H5j7LnNmbhzcCRv7FLnSCmuOHtE6Et80AAAAAxgAgW/Dy8/NrbLdjfRZB8Th4vB3sxcbl0xDzmQPUGv/XUoeQf/zqZ/39gooFKWvBevRy9RVs1Mv9AJzL1ZNgR</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAwxgDfH41AjuPqzRIQ7khpH34I9okQ+KtgCujxILqXLQAAAAAOgAAAAAIAACAAAADYc8mTMaCCpeXoAuF0lie68HQgeFn7hVMU6/ZpTU53OjAAAAAhk6Dkv16U0burBsd1PAdT+1uHmXGtg4m8ZKf3H5KPD9aRwPWCdMTqjiS0igSYvfJAAAAAq0EeHOe0rmDxJ1RSDRGT+8FbqVCHCRHUQb/w0e29jGcIk6HZBDsFeZhltVSw7o1S+2PaR5YgejrPrZC4qdIWCA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADw00GkbFSBFgIjJSK+8kLp/441Y3pBBscWwW07kG01MAAAAAAOgAAAAAIAACAAAACopOqP4PUSNLxM1Ky5PVcKZ99kehurw5MJjLFcZ2y/MTAAAACW2tC/ZXLIx4XerUWZeV6TO27xp8ChYF08lRBuFTWPBblw264H6kjFDfXw8SHZWG1AAAAAAfoJvv1H55176Ng4Z/tk0b8ddzuZ8RxPKJTGWOaZIRUo35+1Oi62CBydXPvPr/6HyKx/2PWd15jJvYhft+jIkQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACnVdQmoUqfRqfT7NFu/KY//hHnD0+bko/FCDP6b6gxcQAAAAAOgAAAAAIAACAAAABZ8YohnbKqF/HFuHaREkojf3sNGoUxE/t/AdGTOIXbEjAAAABgDUW2sKfg2zsyn6JzboeuUAdmu89RQU8xnFUSNWYHlBut7zA2rvc5YGh53I6IuMFAAAAAQD76rORv1iLW8DSV4B4nO8mYfkeeZEsTGC/HnmJi+GzEuheCUKoNYo7tpVbIyJ1YI0UERoTfxsuZwDsE2S9fjQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABR4S3mDJfwDbJsD2p7Y2zNLZNoU7vbzNXLm7yCQySuaQAAAAAOgAAAAAIAACAAAACqnKE8CJlMDH8WLOqcChncNrsj9X4D+dUKS+IM3qNfNzAAAABAjmMrVPU4w8wdtJ10sMquMKKZvJwUU98tpTtMgLJNk4bkXF1sgwb7PAWNZ7zeCatAAAAAjRxTlXKWrPd6ucoy206jCVah2WY8Th886Ic+1XXhxXTXhOuuJB5FaiXq9UJfyYOmJtRrN8iSXf1/1hydarzfWw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2259,25 +2259,25 @@ order by DMC.Cliente_Key asc;
           PanelSize="584.8,197.6"
           Size="584.8,240.8"
           Id="Package\Poblamiento de DataMart"
-          TopLeft="144.883119350462,119.73903911245" />
+          TopLeft="144.883119350462,119.127274397988" />
         <NodeLayout
           Size="172,41.6"
           Id="Package\Tabla Hecho Ventas"
           TopLeft="354.628576732168,398.494120778675" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="438.612991015234,72.4941180803372">
+          TopLeft="438.612991015235,72.4941180803372">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,47.2449210321128"
+              EndConnector="0,46.6331563176507"
               Start="0,0"
-              End="0,39.7449210321128">
+              End="0,39.1331563176507">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.7449210321128" />
+                    End="0,39.1331563176507" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2288,18 +2288,18 @@ order by DMC.Cliente_Key asc;
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="438.955848041315,360.53903911245">
+          TopLeft="438.955848041315,359.927274397988">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.9550816662245"
+              EndConnector="0,38.5668463806871"
               Start="0,0"
-              End="0,30.4550816662245">
+              End="0,31.0668463806871">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.4550816662245" />
+                    End="0,31.0668463806871" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
