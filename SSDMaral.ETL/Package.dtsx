@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="59"
-  DTS:VersionGUID="{A05010E4-0900-4981-AD06-605CEFE9662E}">
+  DTS:VersionBuild="66"
+  DTS:VersionGUID="{733230C2-CD85-445E-8656-5D7DBE4E3A84}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADpYXv8JVpebvDfDtLvg9RXBTivqo0efsX8jz19hsbRmAAAAAAOgAAAAAIAACAAAABt6OCOodGEiD8b8Zj0ZVXiJxdt8V0iHR0UhcXFScpAPCAAAADPT4mO/rmFdLrhuw1mylKi3vJJxVOYiVW0ewWPMLMIHEAAAACkvNHysOBorjtfy0wc+1b9GXRBfXGkfje3UQTzhkCuusXtCVVN0+nTukFz3Vp2y4JnF/kMLMfpyDT1/6qr9FV4</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNO7ZTYh2QBhdsTyMBLUxzyhGuKV7AroZL6uuDQODOVQAAAAAOgAAAAAIAACAAAAD4SnjNdxElYkqipyzMPdQ037zoe2l1vxzefo+6GGsHPiAAAAC3iltR5iv1/TAdyeU7OPGJ3cS4YEzMHyq+fSHUvZtDOUAAAADc8sotk0kWG2MIuA15OCOdpotqIrP8UgGWer5YPYZXYCwbmZ3VXHckC0rLWiwWp449OE56MPkuAMDH/BTV5RPT</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAsoLrnzzOf5jiGkNiCNWQZ+CBvtLqmQwEKHT1Q7nl97AAAAAAOgAAAAAIAACAAAADdexwNlZeOLbcz6KN4HBzKZ0NXNayCHiTKUob4HYPPISAAAACPMi2fUFqeenExRi0h1+1KX2H5C55XBzXAHVli9K3Bg0AAAAClSTiXwkYwnCH+uLTAKLXYEp9LbtiSgIi4APoniIvzsldm2qwtVfDG/gn4R2tXowPRTuG70lW2voYBXYE3I13p</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+2ZgXCKoC20h9Fq36Y2HrHfuR/abVvy+oVdKr+9a3aAAAAAAOgAAAAAIAACAAAACNARPAnJ1mawEFZYz8WvgkOAhySWaR49+UPVQDU9iF/SAAAACwUnCds5eoDrEXMpDxcHe6KRuhp7wjLhfWqv7Dg9LtAUAAAACsKZbffdsPhAmBQHcnCpUcghpS27JX0BwxSfmLGmtlrZMxZVkUQ8i+HtmjlgJjS0JAkLXf4G8jNV91+hsDQ2mr</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADOG6JITkI3Njqyw1K/F/BhBztS4rLYl4wxQts+G9DLoQAAAAAOgAAAAAIAACAAAAC7Av9wzB/j5cE6ysFN5ilztyIEGIPzUKhaOSeYi+DZdzAAAAAORf7YJh7jDtICI4XXDqaDoQYajs4Glp4msLeJK0bqxwtrclqJwYlZ11qzEsN3RPZAAAAAvcmIDBkxIjS3TULmePr1Cl6qDmOjgYE2S2+dq7+WYvbcFBZcKf2iOMY8J05QArL2nQ8MdL3P/jXSZAQsWaKe4Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAwxgDfH41AjuPqzRIQ7khpH34I9okQ+KtgCujxILqXLQAAAAAOgAAAAAIAACAAAADYc8mTMaCCpeXoAuF0lie68HQgeFn7hVMU6/ZpTU53OjAAAAAhk6Dkv16U0burBsd1PAdT+1uHmXGtg4m8ZKf3H5KPD9aRwPWCdMTqjiS0igSYvfJAAAAAq0EeHOe0rmDxJ1RSDRGT+8FbqVCHCRHUQb/w0e29jGcIk6HZBDsFeZhltVSw7o1S+2PaR5YgejrPrZC4qdIWCA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACUqvW7kdRFJoLyIrCfJGA7IMF7FG1EdpwoQFJQyTboBAAAAAAOgAAAAAIAACAAAAB0gdzw8MfEm+83FoLzSOPlEVgPSmXWHlhANQu1lgfq/jAAAABxs0+RkYt5O02sqmP735RDej4oOGcneAD+9nFHSzVGn4n8Oxsh2m3Xw9BC9LbmBh1AAAAAjss4QopFKq49ETS//iKlF25jsdQ13qz6R9GPlGhvYAes/87jMw/tCtF1V2rsEzxtB1r88aglBP0SxnFipJygSQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACnVdQmoUqfRqfT7NFu/KY//hHnD0+bko/FCDP6b6gxcQAAAAAOgAAAAAIAACAAAABZ8YohnbKqF/HFuHaREkojf3sNGoUxE/t/AdGTOIXbEjAAAABgDUW2sKfg2zsyn6JzboeuUAdmu89RQU8xnFUSNWYHlBut7zA2rvc5YGh53I6IuMFAAAAAQD76rORv1iLW8DSV4B4nO8mYfkeeZEsTGC/HnmJi+GzEuheCUKoNYo7tpVbIyJ1YI0UERoTfxsuZwDsE2S9fjQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -93,7 +93,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FC2085E6-81C2-464C-B34A-3500C79E15C2}"
-          SQLTask:SqlStatementSource="DELETE Fac_Ventas&#xA;DELETE Dim_Empleado&#xA;DBCC CHECKIDENT('Dim_Empleado', reseed,0)&#xA;DELETE Dim_Tiempo&#xA;DBCC CHECKIDENT('Dim_Tiempo', reseed,0)&#xA;DELETE Dim_Cliente&#xA;DBCC CHECKIDENT('Dim_Cliente', reseed,0)&#xA;DELETE Dim_Producto&#xA;DBCC CHECKIDENT('Dim_Producto', reseed,0)&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DELETE Fac_Ventas &#xA;DELETE Dim_Empleado&#xA;DBCC CHECKIDENT('Dim_Empleado', reseed,0)&#xA;DELETE Dim_Tiempo&#xA;DBCC CHECKIDENT('Dim_Tiempo', reseed,0)&#xA;DELETE Dim_Cliente&#xA;DBCC CHECKIDENT('Dim_Cliente', reseed,0)&#xA;DELETE Dim_Producto&#xA;DBCC CHECKIDENT('Dim_Producto', reseed,0)&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -332,8 +332,8 @@ FROM Cliente;</property>
                   <connections>
                     <connection
                       refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
-                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerID="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -704,8 +704,8 @@ FROM Cliente;</property>
                   <connections>
                     <connection
                       refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
-                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerID="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1198,8 +1198,8 @@ INNER JOIN Modelo M ON M.ModeloID = P.ModeloID</property>
                   <connections>
                     <connection
                       refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
-                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerID="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1546,8 +1546,8 @@ FROM Factura;</property>
                   <connections>
                     <connection
                       refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
-                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerID="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1733,7 +1733,7 @@ FROM Factura;</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT TOP 12545
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT TOP 100
 DMC.Cliente_Key,
 DMT.Tiempo_Key,
 DME.Empleado_Key,
