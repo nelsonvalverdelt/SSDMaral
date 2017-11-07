@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSDMaral.ETL", "SSDMaral.ETL\SSDMaral.ETL.dtproj", "{2B87AAA9-F4D9-4013-8AB8-EFBFD4A09A6E}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SSdMaral.DataMart", "SSdMaral.DataMart\SSdMaral.DataMart.sqlproj", "{48A0F2BA-5FBD-4D25-B345-5DE72BA2C97D}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SSdMaral.DataMart", "SSdMaral.DataMart\SSDMaral.DataMart.sqlproj", "{48A0F2BA-5FBD-4D25-B345-5DE72BA2C97D}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SSDMaral.Datawarehouse", "SSDMaral.Datawarehouse\SSDMaral.Datawarehouse.sqlproj", "{607A3F7C-9245-41B8-B2A8-42B4A61F5275}"
 EndProject
