@@ -1,0 +1,2625 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/6/2017 12:23:36 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAMBDA"
+  DTS:CreatorName="LAMBDA\nelso"
+  DTS:DTSID="{2261D6EE-6162-4FE0-90C3-B7A5D8F55F72}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.98"
+  DTS:LocaleID="10250"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="59"
+  DTS:VersionGUID="{A05010E4-0900-4981-AD06-605CEFE9662E}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{188A5DAC-0B32-4D35-98AB-84C13BDA37BD}"
+      DTS:ObjectName="LAMBDA\NELSON.Maral.Neel">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAMBDA\NELSON;User ID=Neel;Initial Catalog=Maral;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADpYXv8JVpebvDfDtLvg9RXBTivqo0efsX8jz19hsbRmAAAAAAOgAAAAAIAACAAAABt6OCOodGEiD8b8Zj0ZVXiJxdt8V0iHR0UhcXFScpAPCAAAADPT4mO/rmFdLrhuw1mylKi3vJJxVOYiVW0ewWPMLMIHEAAAACkvNHysOBorjtfy0wc+1b9GXRBfXGkfje3UQTzhkCuusXtCVVN0+nTukFz3Vp2y4JnF/kMLMfpyDT1/6qr9FV4</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAMBDA\NELSON.Maral_Mart.Neel]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{3AEFC4F7-3AD8-4649-8CC2-F3307F660500}"
+      DTS:ObjectName="LAMBDA\NELSON.Maral_Mart.Neel">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAMBDA\NELSON;User ID=Neel;Initial Catalog=Maral_Mart;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAsoLrnzzOf5jiGkNiCNWQZ+CBvtLqmQwEKHT1Q7nl97AAAAAAOgAAAAAIAACAAAADdexwNlZeOLbcz6KN4HBzKZ0NXNayCHiTKUob4HYPPISAAAACPMi2fUFqeenExRi0h1+1KX2H5C55XBzXAHVli9K3Bg0AAAAClSTiXwkYwnCH+uLTAKLXYEp9LbtiSgIi4APoniIvzsldm2qwtVfDG/gn4R2tXowPRTuG70lW2voYBXYE3I13p</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2534FD30-C4F0-4E7D-B242-B0E90847B14F}"
+      DTS:ObjectName="maralserver.database.windows.net.Maral.ssd">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=maralserver.database.windows.net;User ID=ssd;Initial Catalog=Maral;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADOG6JITkI3Njqyw1K/F/BhBztS4rLYl4wxQts+G9DLoQAAAAAOgAAAAAIAACAAAAC7Av9wzB/j5cE6ysFN5ilztyIEGIPzUKhaOSeYi+DZdzAAAAAORf7YJh7jDtICI4XXDqaDoQYajs4Glp4msLeJK0bqxwtrclqJwYlZ11qzEsN3RPZAAAAAvcmIDBkxIjS3TULmePr1Cl6qDmOjgYE2S2+dq7+WYvbcFBZcKf2iOMY8J05QArL2nQ8MdL3P/jXSZAQsWaKe4Q</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{FC2085E6-81C2-464C-B34A-3500C79E15C2}"
+      DTS:ObjectName="maralserver.database.windows.net.Maral_Mart.ssd">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=maralserver.database.windows.net;User ID=ssd;Initial Catalog=Maral_Mart;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9Hv0PU2FS0uMRABCiYLm5gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACUqvW7kdRFJoLyIrCfJGA7IMF7FG1EdpwoQFJQyTboBAAAAAAOgAAAAAIAACAAAAB0gdzw8MfEm+83FoLzSOPlEVgPSmXWHlhANQu1lgfq/jAAAABxs0+RkYt5O02sqmP735RDej4oOGcneAD+9nFHSzVGn4n8Oxsh2m3Xw9BC9LbmBh1AAAAAjss4QopFKq49ETS//iKlF25jsdQ13qz6R9GPlGhvYAes/87jMw/tCtF1V2rsEzxtB1r88aglBP0SxnFipJygSQ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Limpieza de tablas del DataMart"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{E89A1BCE-DF10-481F-9F5C-59B90E088B80}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Limpieza de tablas del DataMart"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{FC2085E6-81C2-464C-B34A-3500C79E15C2}"
+          SQLTask:SqlStatementSource="DELETE Fac_Ventas&#xA;DELETE Dim_Empleado&#xA;DBCC CHECKIDENT('Dim_Empleado', reseed,0)&#xA;DELETE Dim_Tiempo&#xA;DBCC CHECKIDENT('Dim_Tiempo', reseed,0)&#xA;DELETE Dim_Cliente&#xA;DBCC CHECKIDENT('Dim_Cliente', reseed,0)&#xA;DELETE Dim_Producto&#xA;DBCC CHECKIDENT('Dim_Producto', reseed,0)&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Poblamiento de DataMart"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{E07144F7-B2D7-459D-9452-A433947F69B2}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Poblamiento de DataMart">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Poblamiento de DataMart\DataMart Cliente"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{C49BE3CA-2502-4674-B09C-A336AAAD1649}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DataMart Cliente"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Dimension Cliente"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Dim_Cliente]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT ClienteID, Nombres +' '+ Apellidos as Nombre, TipoCliente,Ciudad
+FROM Cliente;</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].Columns[TipoCliente]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="12"
+                          cachedName="TipoCliente"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[TipoCliente]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[TipoCliente]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].Columns[Ciudad]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="25"
+                          cachedName="Ciudad"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[Ciudad]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[Ciudad]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].Columns[ClienteID]"
+                          cachedDataType="i4"
+                          cachedName="ClienteID"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[ClienteId]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[ClienteID]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].Columns[Nombre]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="41"
+                          cachedName="Nombre"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[Nombre]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[TipoCliente]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="TipoCliente" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Ciudad" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[Cliente_Key]"
+                          dataType="i4"
+                          name="Cliente_Key" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input].ExternalColumns[ClienteId]"
+                          dataType="i4"
+                          name="ClienteId" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="Tabla Cliente"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Cliente]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT DNI, ClienteID, Nombres +' '+ Apellidos as Nombre, TipoCliente,Ciudad
+FROM Cliente;</property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output]"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[ClienteID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[ClienteID]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[ClienteID]"
+                          name="ClienteID"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[TipoCliente]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[TipoCliente]"
+                          length="12"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[TipoCliente]"
+                          name="TipoCliente"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[Ciudad]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[Ciudad]"
+                          name="Ciudad"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          length="41"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          name="Nombre"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[DNI]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[DNI]"
+                          length="8"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].Columns[DNI]"
+                          name="DNI"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[ClienteID]"
+                          dataType="i4"
+                          name="ClienteID" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[TipoCliente]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="TipoCliente" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Ciudad" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="41"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output].ExternalColumns[DNI]"
+                          codePage="1252"
+                          dataType="str"
+                          length="8"
+                          name="DNI" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[DNI]"
+                          codePage="1252"
+                          dataType="str"
+                          length="8"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[DNI]"
+                          name="DNI" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[ClienteID]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[ClienteID]"
+                          name="ClienteID" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="41"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          name="Nombre" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[TipoCliente]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[TipoCliente]"
+                          name="TipoCliente" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[Ciudad]"
+                          name="Ciudad" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Poblamiento de DataMart\DataMart Cliente.Paths[OLE DB Source Output]"
+                  endId="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente.Inputs[OLE DB Destination Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente.Outputs[OLE DB Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Poblamiento de DataMart\DataMart Empleado"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{C7D86D5F-5F02-4147-9D5A-A99E1472BEE6}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DataMart Empleado"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Dimension Empleado"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Dim_Empleado]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].Columns[EmpleadoID]"
+                          cachedDataType="i4"
+                          cachedName="EmpleadoID"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoId]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].Columns[Nombre]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="25"
+                          cachedName="Nombre"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].Columns[Ciudad]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="25"
+                          cachedName="Ciudad"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Ciudad]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Ciudad]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Empleado_Key]"
+                          dataType="i4"
+                          name="Empleado_Key" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoId]"
+                          dataType="i4"
+                          name="EmpleadoId" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Ciudad" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="Tabla Empleado"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Empleado]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output]"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[EmpleadoID]"
+                          name="EmpleadoID"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          name="Nombre"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Apellido]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Apellido]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Apellido]"
+                          name="Apellido"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Telefono]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Telefono]"
+                          length="10"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Telefono]"
+                          name="Telefono"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Correo]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Correo]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Correo]"
+                          name="Correo"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Direccion]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Direccion]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Direccion]"
+                          name="Direccion"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Ciudad]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Ciudad]"
+                          name="Ciudad"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Departamento]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Departamento]"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[Departamento]"
+                          name="Departamento"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[FechaNacimiento]"
+                          dataType="dbDate"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[FechaNacimiento]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[FechaNacimiento]"
+                          name="FechaNacimiento"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[FechaContrato]"
+                          dataType="dbDate"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[FechaContrato]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].Columns[FechaContrato]"
+                          name="FechaContrato"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[EmpleadoID]"
+                          dataType="i4"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Apellido]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Telefono]"
+                          codePage="1252"
+                          dataType="str"
+                          length="10"
+                          name="Telefono" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Correo]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Correo" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Direccion]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Direccion" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Ciudad" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[Departamento]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          name="Departamento" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[FechaNacimiento]"
+                          dataType="dbDate"
+                          name="FechaNacimiento" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output].ExternalColumns[FechaContrato]"
+                          dataType="dbDate"
+                          name="FechaContrato" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[EmpleadoID]"
+                          name="EmpleadoID" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          name="Nombre" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Apellido]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Apellido]"
+                          name="Apellido" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Telefono]"
+                          codePage="1252"
+                          dataType="str"
+                          length="10"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Telefono]"
+                          name="Telefono" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Correo]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Correo]"
+                          name="Correo" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Direccion]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Direccion]"
+                          name="Direccion" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Ciudad]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Ciudad]"
+                          name="Ciudad" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Departamento]"
+                          codePage="1252"
+                          dataType="str"
+                          length="25"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[Departamento]"
+                          name="Departamento" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[FechaNacimiento]"
+                          dataType="dbDate"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[FechaNacimiento]"
+                          name="FechaNacimiento" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[FechaContrato]"
+                          dataType="dbDate"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[FechaContrato]"
+                          name="FechaContrato" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Poblamiento de DataMart\DataMart Empleado.Paths[OLE DB Source Output]"
+                  endId="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado.Inputs[OLE DB Destination Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado.Outputs[OLE DB Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Poblamiento de DataMart\DataMart Producto"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{D14CA4EA-1E6B-4EB7-A2DA-0E42A249989C}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DataMart Producto"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="DataMart Producto"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Dim_Producto]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">true</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].Columns[ProductoId]"
+                          cachedDataType="i4"
+                          cachedName="ProductoId"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[ProductoId]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[ProductoId]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].Columns[Nombre]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Nombre"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].Columns[Modelo]"
+                          cachedDataType="i4"
+                          cachedName="Modelo"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Modelo]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Modelo]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].Columns[Marca]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="12"
+                          cachedName="Marca"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Marca]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Marca]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Producto_Key]"
+                          dataType="i4"
+                          name="Producto_Key" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[ProductoId]"
+                          dataType="i4"
+                          name="ProductoId" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Modelo]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="Modelo" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input].ExternalColumns[Marca]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="Marca" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="Tablas Modelo y Piezas"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Piezas]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT ProductoID as ProductoId, M.Electrodomestico as Nombre, M.ModeloID as Modelo, M.Marca as Marca
+FROM Piezas P
+INNER JOIN Modelo M ON M.ModeloID = P.ModeloID</property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output]"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[ProductoId]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[ProductoId]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[ProductoId]"
+                          name="ProductoId"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          length="50"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          name="Nombre"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Modelo]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[Modelo]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Modelo]"
+                          name="Modelo"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Marca]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[Marca]"
+                          length="12"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].Columns[Marca]"
+                          name="Marca"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[ProductoId]"
+                          dataType="i4"
+                          name="ProductoId" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[Modelo]"
+                          dataType="i4"
+                          name="Modelo" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output].ExternalColumns[Marca]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="Marca" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[ProductoId]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[ProductoId]"
+                          name="ProductoId" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          name="Nombre" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[Modelo]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[Modelo]"
+                          name="Modelo" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[Marca]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[Marca]"
+                          name="Marca" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Poblamiento de DataMart\DataMart Producto.Paths[OLE DB Source Output]"
+                  endId="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto.Inputs[OLE DB Destination Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas.Outputs[OLE DB Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Poblamiento de DataMart\DataMart Tiempo"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{34EB643A-7E91-401B-A6CC-3B5E45F5CEDE}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DataMart Tiempo"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Dimension Tiempo"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Dim_Tiempo]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].Columns[Año]"
+                          cachedDataType="i4"
+                          cachedName="Año"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Año]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Año]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].Columns[Fecha]"
+                          cachedDataType="dbDate"
+                          cachedName="Fecha"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Fecha]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Fecha]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].Columns[Mes]"
+                          cachedDataType="i4"
+                          cachedName="Mes"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Mes]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Mes]" />
+                        <inputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].Columns[Dia]"
+                          cachedDataType="i4"
+                          cachedName="Dia"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Dia]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Dia]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Key]"
+                          dataType="i4"
+                          name="Tiempo_Key" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Fecha]"
+                          dataType="dbTimeStamp"
+                          name="Fecha" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Año]"
+                          dataType="i4"
+                          name="Año" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Mes]"
+                          dataType="i4"
+                          name="Mes" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input].ExternalColumns[Dia]"
+                          dataType="i4"
+                          name="Dia" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="Tabla Factura"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset"></property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT FechaEmision as Fecha, 
+DatePart(yy,FechaEmision) as Año,
+DatePart(mm,FechaEmision) as Mes,
+DatePart(dd,FechaEmision) as Dia
+FROM Factura;</property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral.ssd]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output]"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Año]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Año]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Año]"
+                          name="Año"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Fecha]"
+                          dataType="dbDate"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Fecha]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Fecha]"
+                          name="Fecha"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Mes]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Mes]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Mes]"
+                          name="Mes"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Dia]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Dia]"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].Columns[Dia]"
+                          name="Dia"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Año]"
+                          dataType="i4"
+                          name="Año" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Fecha]"
+                          dataType="dbTimeStamp"
+                          name="Fecha" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Mes]"
+                          dataType="i4"
+                          name="Mes" />
+                        <externalMetadataColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output].ExternalColumns[Dia]"
+                          dataType="i4"
+                          name="Dia" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Fecha]"
+                          dataType="dbTimeStamp"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Fecha]"
+                          name="Fecha" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Año]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Año]"
+                          name="Año" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Mes]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Mes]"
+                          name="Mes" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Dia]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[Dia]"
+                          name="Dia" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Poblamiento de DataMart\DataMart Tiempo.Paths[OLE DB Source Output]"
+                  endId="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo.Inputs[OLE DB Destination Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura.Outputs[OLE DB Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Poblamiento de DataMart.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{B89DC3EE-B98B-4A64-AA40-AD32ED7CE043}"
+          DTS:From="Package\Poblamiento de DataMart\DataMart Empleado"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Poblamiento de DataMart\DataMart Cliente" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Poblamiento de DataMart.PrecedenceConstraints[Constraint 1]"
+          DTS:CreationName=""
+          DTS:DTSID="{9FD5BB1C-F68A-4439-8BB6-102826896814}"
+          DTS:From="Package\Poblamiento de DataMart\DataMart Cliente"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 1"
+          DTS:To="Package\Poblamiento de DataMart\DataMart Tiempo" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Poblamiento de DataMart.PrecedenceConstraints[Constraint 2]"
+          DTS:CreationName=""
+          DTS:DTSID="{3FECB99F-FA21-43C4-AEF8-0172B25ED5C9}"
+          DTS:From="Package\Poblamiento de DataMart\DataMart Tiempo"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 2"
+          DTS:To="Package\Poblamiento de DataMart\DataMart Producto" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tabla Hecho Ventas"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{85D3F3CD-C194-4158-8B53-6272FC7A0F72}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tabla Hecho Ventas"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="JOINS DE TABLAS DW Y DataMarts"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT TOP 12545
+DMC.Cliente_Key,
+DMT.Tiempo_Key,
+DME.Empleado_Key,
+DMP.Producto_Key,
+((Linea_Factura.Cantidad * Linea_Factura.PrecioUnitario) + Linea_Factura.PrecioDeEnvio) as Monto,
+(SELECT SUM(Linea_Factura.Cantidad) FROM Linea_Factura
+WHERE Linea_Factura.FacturaID = Factura.FacturaID) as NroProducto,
+(SELECT COUNT(Factura.FacturaID) FROM Factura
+WHERE Factura.PedidoID = Pedido.PedidoID) as NroVentas
+FROM Pedido
+INNER JOIN Factura ON Pedido.PedidoID = Factura.PedidoID
+INNER JOIN Linea_Factura ON Factura.FacturaID = Linea_Factura.FacturaID
+INNER JOIN Maral_Mart.dbo.Dim_Tiempo DMT ON  Factura.FechaEmision = DMT.Fecha
+INNER JOIN Maral_Mart.dbo.Dim_Cliente DMC ON Pedido.ClienteID = DMC.ClienteId
+INNER JOIN Maral_Mart.dbo.Dim_Empleado DME ON Pedido.EmpleadoID = DME.EmpleadoId
+INNER JOIN Maral_Mart.dbo.Dim_Producto DMP ON Linea_Factura.ProductoID = DMP.ProductoId
+order by DMC.Cliente_Key asc;
+-- LIMITE INSERTS 12545</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAMBDA\NELSON.Maral.Neel]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Cliente_Key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Cliente_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Cliente_Key]"
+                      name="Cliente_Key"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Tiempo_Key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Tiempo_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Tiempo_Key]"
+                      name="Tiempo_Key"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Empleado_Key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Empleado_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Empleado_Key]"
+                      name="Empleado_Key"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Producto_Key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Producto_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Producto_Key]"
+                      name="Producto_Key"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Monto]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Monto]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Monto]"
+                      name="Monto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[NroProducto]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[NroProducto]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[NroProducto]"
+                      name="NroProducto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[NroVentas]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[NroVentas]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[NroVentas]"
+                      name="NroVentas"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Cliente_Key]"
+                      dataType="i4"
+                      name="Cliente_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Tiempo_Key]"
+                      dataType="i4"
+                      name="Tiempo_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Empleado_Key]"
+                      dataType="i4"
+                      name="Empleado_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Producto_Key]"
+                      dataType="i4"
+                      name="Producto_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[Monto]"
+                      dataType="cy"
+                      name="Monto" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[NroProducto]"
+                      dataType="i4"
+                      name="NroProducto" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].ExternalColumns[NroVentas]"
+                      dataType="i4"
+                      name="NroVentas" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Cliente_Key]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Cliente_Key]"
+                      name="Cliente_Key" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Tiempo_Key]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Tiempo_Key]"
+                      name="Tiempo_Key" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Empleado_Key]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Empleado_Key]"
+                      name="Empleado_Key" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Producto_Key]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Producto_Key]"
+                      name="Producto_Key" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Monto]"
+                      dataType="cy"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[Monto]"
+                      name="Monto" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[NroProducto]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[NroProducto]"
+                      name="NroProducto" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[NroVentas]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[NroVentas]"
+                      name="NroVentas" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Tabla Hecho Ventas"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Fac_Ventas]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                  connectionManagerRefId="Package.ConnectionManagers[maralserver.database.windows.net.Maral_Mart.ssd]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[Cliente_Key]"
+                      cachedDataType="i4"
+                      cachedName="Cliente_Key"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Cliente_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Cliente_Key]" />
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[Tiempo_Key]"
+                      cachedDataType="i4"
+                      cachedName="Tiempo_Key"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Tiempo_Key]" />
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[Empleado_Key]"
+                      cachedDataType="i4"
+                      cachedName="Empleado_Key"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Empleado_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Empleado_Key]" />
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[Producto_Key]"
+                      cachedDataType="i4"
+                      cachedName="Producto_Key"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Producto_Key]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Producto_Key]" />
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[Monto]"
+                      cachedDataType="cy"
+                      cachedName="Monto"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Monto]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[Monto]" />
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[NroProducto]"
+                      cachedDataType="i4"
+                      cachedName="NroProducto"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[NroProducto]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[NroProducto]" />
+                    <inputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].Columns[NroVentas]"
+                      cachedDataType="i4"
+                      cachedName="NroVentas"
+                      externalMetadataColumnId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[NroVentas]"
+                      lineageId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output].Columns[NroVentas]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Cliente_Key]"
+                      dataType="i4"
+                      name="Cliente_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Key]"
+                      dataType="i4"
+                      name="Tiempo_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Producto_Key]"
+                      dataType="i4"
+                      name="Producto_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Empleado_Key]"
+                      dataType="i4"
+                      name="Empleado_Key" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[Monto]"
+                      dataType="cy"
+                      name="Monto" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[NroProducto]"
+                      dataType="i4"
+                      name="NroProducto" />
+                    <externalMetadataColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input].ExternalColumns[NroVentas]"
+                      dataType="i4"
+                      name="NroVentas" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tabla Hecho Ventas.Paths[OLE DB Source Output]"
+              endId="Package\Tabla Hecho Ventas\Tabla Hecho Ventas.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{AE3FFA85-12A1-42D2-8A19-694B29979870}"
+      DTS:From="Package\Limpieza de tablas del DataMart"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Poblamiento de DataMart" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{0C6544FB-9860-4B3D-B047-E66445B8AA29}"
+      DTS:From="Package\Poblamiento de DataMart"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Tabla Hecho Ventas" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="229.6,41.6"
+          Id="Package\Limpieza de tablas del DataMart"
+          TopLeft="325.142862680007,30.8941180803372" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Cliente"
+          TopLeft="208.44675926251,6.51123172487621" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Empleado"
+          TopLeft="6.40000129427236,8.8941201952502" />
+        <NodeLayout
+          Size="166.4,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Producto"
+          TopLeft="197.342862969516,101.388238822548" />
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Tiempo"
+          TopLeft="401.628580734195,11.9176495147825" />
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart.PrecedenceConstraints[Constraint]"
+          TopLeft="177.600001294272,28.5026759600632">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="30.8467579682373,0"
+              Start="0,0"
+              End="23.3467579682373,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="23.3467579682373,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart.PrecedenceConstraints[Constraint 1]"
+          TopLeft="365.24675926251,30.0144406198293">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="36.3818214716853,0"
+              Start="0,0"
+              End="28.8818214716853,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="28.8818214716853,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart.PrecedenceConstraints[Constraint 2]"
+          TopLeft="481.628580734195,53.5176495147825">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-201.085717764679,47.8705893077653"
+              Start="0,0"
+              End="-201.085717764679,40.3705893077653">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.9352946538826" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.9352946538826"
+                    Point2="0,23.9352946538826"
+                    Point3="-4,23.9352946538826" />
+                  <mssgle:LineSegment
+                    End="-197.085717764679,23.9352946538826" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-197.085717764679,23.9352946538826"
+                    Point2="-201.085717764679,23.9352946538826"
+                    Point3="-201.085717764679,27.9352946538826" />
+                  <mssgle:LineSegment
+                    End="-201.085717764679,40.3705893077653" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="584.8,197.6"
+          Size="584.8,240.8"
+          Id="Package\Poblamiento de DataMart"
+          TopLeft="144.883119350462,119.73903911245" />
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\Tabla Hecho Ventas"
+          TopLeft="354.628576732168,398.494120778675" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="438.612991015234,72.4941180803372">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47.2449210321128"
+              Start="0,0"
+              End="0,39.7449210321128">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.7449210321128" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="438.955848041315,360.53903911245">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.9550816662245"
+              Start="0,0"
+              End="0,30.4550816662245">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.4550816662245" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Poblamiento de DataMart\DataMart Cliente">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente"
+          TopLeft="379.2,157.6" />
+        <NodeLayout
+          Size="139.2,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente"
+          TopLeft="396,56.8" />
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart\DataMart Cliente.Paths[OLE DB Source Output]"
+          TopLeft="463.2,98.4">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.2"
+              Start="0,0"
+              End="0,51.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Cliente\Dimension Cliente">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Cliente\Tabla Cliente">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Poblamiento de DataMart\DataMart Empleado">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado"
+          TopLeft="276.8,77.6" />
+        <NodeLayout
+          Size="176.8,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado"
+          TopLeft="272.8,155.2" />
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart\DataMart Empleado.Paths[OLE DB Source Output]"
+          TopLeft="357.4,119.2">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36"
+              Start="0,0"
+              End="0,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Empleado\Dimension Empleado">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Empleado\Tabla Empleado">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Poblamiento de DataMart\DataMart Producto">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="166.4,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto"
+          TopLeft="429.6,167.2" />
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas"
+          TopLeft="424,75.2" />
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart\DataMart Producto.Paths[OLE DB Source Output]"
+          TopLeft="515.2,116.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50.4"
+              Start="0,0"
+              End="0,42.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Producto\DataMart Producto">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Producto\Tablas Modelo y Piezas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Poblamiento de DataMart\DataMart Tiempo">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="165.6,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo"
+          TopLeft="397.6,203.2" />
+        <NodeLayout
+          Size="142.4,41.6"
+          Id="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura"
+          TopLeft="409.6,110.588235285538" />
+        <EdgeLayout
+          Id="Package\Poblamiento de DataMart\DataMart Tiempo.Paths[OLE DB Source Output]"
+          TopLeft="480.6,152.188235285538">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.0117647144621"
+              Start="0,0"
+              End="0,43.5117647144621">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5117647144621" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Tiempo\Dimension Tiempo">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Poblamiento de DataMart\DataMart Tiempo\Tabla Factura">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Tabla Hecho Ventas">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\Tabla Hecho Ventas\Tabla Hecho Ventas"
+          TopLeft="493.6,225.6" />
+        <NodeLayout
+          Size="244.8,41.6"
+          Id="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts"
+          TopLeft="457.6,127.2" />
+        <EdgeLayout
+          Id="Package\Tabla Hecho Ventas.Paths[OLE DB Source Output]"
+          TopLeft="579.8,168.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56.8"
+              Start="0,0"
+              End="0,49.3">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.3" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tabla Hecho Ventas\JOINS DE TABLAS DW Y DataMarts">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tabla Hecho Ventas\Tabla Hecho Ventas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
